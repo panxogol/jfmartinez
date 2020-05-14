@@ -1,0 +1,1 @@
+web: gunicorn jfmartinez.wsgy --log-file -

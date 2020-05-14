@@ -1,0 +1,60 @@
+{$ load static $}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Juan Francisco Martinez</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- FONT ROBOTO MONO -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="{$ static '/home/css/styles.css' $}">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="nav-main">
+            <div class="logo-container">
+                <a href="#"><img src="{$ static '/home/img/jfmartinez_logoW2' $}" alt="fmartinez-logo" class="nav-logo"
+                        href="#"></a>
+                <a class="text-logo" href="#">jfmartinez</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Data Science</a></li>
+                <li><a href="#">Video Games</a></li>
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-95">
+        <h1>Juan Francisco Martinez - Estudiante de Ingeniería Civil Industrial</h1>
+        <h2>Subtítulo</h2>
+        <p>
+            {{ req.user }}
+        </p>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src=""></script>
+    <!-- <script src="./index.js"></script> -->
+</body>
+
+</html>
