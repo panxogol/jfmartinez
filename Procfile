@@ -1,1 +1,1 @@
-web: gunicorn jfmartinez.wsgy --log-file -
+web: gunicorn jfmartinez.wsgi --log-file -
